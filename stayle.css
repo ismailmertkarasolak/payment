@@ -65,22 +65,31 @@ label:hover{
 
 }
 
+
 @media only screen and (max-width: 600px) {
-    
+    body{
+        font-size: 1.4em;
+        text-align: center;
+    }
+
     #paymentalert {
-        font-size: 16px;
+        font-size: 1.4em;
     }
 
     #submitButton {
-        font-size: 14px;
-        margin-top: 0.5em; 
+        font-size: 1.4em;
+        margin-top: 0.5em;
     }
 
     #paymentresult {
-        font-size: 14px;
+        font-size: 1.4em;
     }
 
     .Labels {
-        margin-top: 0.5em; 
+        margin-top: 1em;
+    }
+
+    label {
+        margin: 0.2em; 
     }
 }
