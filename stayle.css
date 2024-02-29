@@ -64,16 +64,23 @@ label:hover{
     opacity: 0.8;
 
 }
+
 @media only screen and (max-width: 600px) {
+    
     #paymentalert {
         font-size: 16px;
     }
 
     #submitButton {
         font-size: 14px;
+        margin-top: 0.5em; 
     }
 
     #paymentresult {
         font-size: 14px;
+    }
+
+    .Labels {
+        margin-top: 0.5em; 
     }
 }
